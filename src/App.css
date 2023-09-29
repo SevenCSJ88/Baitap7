@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+  background-color: rgb(215, 93, 93);
+}
+.App h1 {
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+.input-container {
+  margin-top: 20px;
+  background-color: bisque;
+  width: 255px;
+  margin-left: 25px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 200px;
+  border: 1px #ccc;
+}
+
+button {
+  padding: 5px;
+  margin-left: 25px;
+  background-color: #8b0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.buttons-task :hover {
+  background-color: rgb(54, 98, 210);
+}
+.TaskList {
+  list-style: none;
+  padding: 0;
+  width: 255px;
+  margin-left: 25px;
+}
+
+.TaskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+.completed {
+  background-color: #696969;
+}
+.add-btn {
+  background-color: rgb(53, 48, 48);
+  margin-right: 20px;
+}
+.delete-btn {
+  background-color:white;
+  color: black;
+}
